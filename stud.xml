@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tr1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Name"
+                android:textSize="25sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/e1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enrollment no."
+                android:textSize="25sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/e2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile no."
+                android:textSize="25sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/e3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="SAVE"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/save"
+        android:layout_alignRight="@+id/save"
+        android:layout_below="@+id/save"
+        android:layout_marginTop="26dp"
+        android:text="Show" />
+
+</RelativeLayout>
