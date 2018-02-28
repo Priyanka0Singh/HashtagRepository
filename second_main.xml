@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TableLayout 
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/te5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textColor="#8B0000"
+                >
+                
+            </TextView>
+            </TableRow>
+            <TableRow
+            android:id="@+id/row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            
+            <TextView
+                android:id="@+id/te6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="Last Station"
+                >
+                
+            </TextView>
+            <TextView
+                android:id="@+id/te7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                >
+                
+            </TextView>
+            
+                
+            </TableRow>
+             <TableRow
+            android:id="@+id/row4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            
+           
+                
+            
+            
+            <TextView
+                android:id="@+id/te8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+              
+                >
+                
+            </TextView>
+            </TableRow>
+        
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/te1"
+                android:layout_width="105sp"
+                android:layout_height="wrap_content" 
+                android:text="Stations"
+                 android:textColor="#0000FF"
+                
+                >
+                
+            </TextView>
+            <TextView
+                android:id="@+id/te2"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content" 
+                android:text="Code"
+                android:textColor="#0000FF"
+                >
+                
+            </TextView>
+            <TextView
+                android:id="@+id/te3"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content" 
+                android:text="ETA"
+                 android:textColor="#0000FF"
+                >
+                
+            </TextView>
+            <TextView
+                android:id="@+id/te4"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content" 
+                android:text="Delay"
+                 android:textColor="#0000FF"
+                 >
+                
+            </TextView>
+        </TableRow>
+    </TableLayout>
+    
+
+    
+    <ListView 
+        android:id="@+id/list"
+        android:layout_below="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+    </ListView>
+     <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Spot Your Train" />
+
+   
+
+</RelativeLayout>
